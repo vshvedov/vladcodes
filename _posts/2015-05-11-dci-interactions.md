@@ -67,7 +67,7 @@ These are examples of data consistency validations and logic, that should be pla
 ## Just a good old Ruby class
 **Interaction** is a class responsible for a set of related business methods. It takes subject(s) in a constructor, all the method-related parameters are passed as method arguments.
 
-###Class Naming
+### Class Naming
 Interaction class name has following structure:
 
 `<Subject><ActionsGroup>Interaction`
@@ -76,14 +76,14 @@ Interaction class name has following structure:
 * `<ActionsGroup>` is a noun describing scope of actions implemented in this Interaction. It is stated in business terms, do not use technical and catch-all words.
 * `Interaction` is a mandatory suffix for all Interactions to devide them from other Ruby classes.
 
-###Actions
+### Actions
 Action groups may include:
 
 * `Creation` - create new instance
 * `Update` - update of visible object parameters that can be explicitly modified by user, such as title, description, email, time zone, etc. But it doesn't handle update of internal parameters like status, various flags, etc.
 * `<your_action_name>` (for example, `Logger`) - feel free to use a resonable action name depending of situation. For eample: `UserLoggerInteraction` to store date connected with User's information (agent, IP...) during logging in
 
-###Examples
+### Examples
 
 **Correct**
 
@@ -97,12 +97,12 @@ SubAccountCreationInteraction # methods for new developer creation or applicatio
 * `MessageReviewingAction` - Where possible use nouns instead of -ing form and stick with Interaction as the suffix
 * `UsersInteraction` - No action group defined
 
-###Method Naming
+### Method Naming
 **Interaction** method name describes single action it performs in business terms. Again, be specific and don't use technical and catch-all words.
 Do not use bang in method names, we all know that Interaction raise errors in case of failed validation, so there is no reason to create unnecessary noise.
 Do not repeat subject name in method name, e.g. use `MessageTestInteraction#send` instead of `MessageTestInteraction#send_test_message` since it's already clear that we are taking action on Message to test it.
 
-###Interaction Class
+### Interaction Class
 All interactions inherit from `BaseInteraction` class. Base interaction has two responsibilities:
 
 * Provide validation helpers (see next section).
@@ -136,7 +136,7 @@ class AdminCreationInteraction < BaseInteraction
 end
 ```
 
-###Validations
+### Validations
 In case of validation error interaction raises InteractionValidationError or specific error inherited from this one.
 There is a number of helpers (`validate!`, `validate_presence!`, etc.) to check input parameters and initial object(s) state. See InteractionValidationHelpers module for details.
 To validate final object(s) state, use bang versions of model update methods (`update_attributes!`, `save!`) and catch `ActiveRecord::RecordInvalid`.
