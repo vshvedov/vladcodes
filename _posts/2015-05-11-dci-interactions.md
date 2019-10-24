@@ -3,25 +3,25 @@ layout: post
 title: DCI in Rails
 ---
 
-	[This](/assets/arch/dci_interactions.zip) is a stripped version of Rails application to show why, where and how we may use Interactions. 
-    Generally, Interactions (and DCI by itself), is not a religion, but a handy tool to keep legacy 
-    codebase mantainable, to separate business actions for MVC codebase, to make both developers, 
-    managers and stakeholders speak in the same language.
-	This is the part of documentation stack I made for an existing project which is still active and has
-    up to 50M views monthly.
+[This](/assets/arch/dci_interactions.zip) is a stripped version of Rails application to show why, where and how we may use Interactions. 
+Generally, Interactions (and DCI by itself), is not a religion, but a handy tool to keep legacy 
+codebase mantainable, to separate business actions for MVC codebase, to make both developers, 
+managers and stakeholders speak in the same language.
+This is the part of documentation stack I made for an existing project which is still active and has
+up to 50M views monthly.
 
 # Interactions
 
-	Interactions are the way to improve the messy MVC logic, by extracting business-actions into a separated Ruby classes, 
-    following name conventions, combining DCI and DDD ideas to make application development more agile.
+Interactions are the way to improve the messy MVC logic, by extracting business-actions into a separated Ruby classes, 
+following name conventions, combining DCI and DDD ideas to make application development more agile.
 
-	[!] Interactions are the place for business logic.
+[!] Interactions are the place for business logic.
 
 ## Basic Ideas
 
 **Controllers** should not change **Models** attributes directly (but not always, but most of the time - read clarifications below), instead they should call Interaction methods to perform business actions. No business logic should be placed in **Models**, **Models** should implement simple **ORM**, and should provide data consistency.
 
-```
+```js
       +-------------+
       |             |
    +--+---+  +------v-----+
@@ -53,11 +53,10 @@ These are examples of business logic that should find its place in Interactions:
 * When Email Message sent to Test
 
 
-		[!] Interactions are little bit more than just a pieces of code. Interactions are the 
-        way to make you think like a user, of suit. It is the way to talk on the same language 
-        and use same business-oriented terms, instead of programmer's mambo-jambo. As the final 
-        result you'll have stronger and less blured informational channel between all participants.
-
+[!] Interactions are little bit more than just a pieces of code. Interactions are the 
+way to make you think like a user, of suit. It is the way to talk on the same language 
+and use same business-oriented terms, instead of programmer's mambo-jambo. As the final 
+result you'll have stronger and less blured informational channel between all participants.
 
 These are examples of data consistency validations and logic, that should be placed in Models:
 
@@ -88,7 +87,7 @@ Action groups may include:
 
 **Correct**
 
-```
+```ruby
 SubAccountCreationInteraction # methods for new developer creation or application
 ```
 
