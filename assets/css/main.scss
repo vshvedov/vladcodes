@@ -49,6 +49,7 @@ a {
 ul {
     list-style: none;
     li {
+        line-height: 20px;
         padding: 5px;
         padding-left: 10px;
         @media screen and (max-width: $br) {
@@ -185,7 +186,7 @@ ul.list {
             }
         }
         code {
-            padding: 3px;
+            padding: 1px;
             font-size: 0.9em;
             border-radius: 3px;
             background: $color-grey;
