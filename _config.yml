@@ -1,9 +1,9 @@
 # Blog settings
 permalink: /blog/:title
 
-name: 'vlad.codes ¯\_(ツ)_/¯'
+name: 'vlad.codes'
 title: 'vlad.codes'
-description: 'Vlad Shvedov - Software Development - weblog, updates and projects'
+description: 'Vlad Shvedov - Software Development'
 google_verification: null
 
 # Sass
