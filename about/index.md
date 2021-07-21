@@ -10,4 +10,4 @@ Music is a big part of my life. I'm not playing in any band anymore, however I h
 
 For web using Ruby/Rails, Arduino C/C++ and Python for [electronics prototyping](/assets/img/about/device.jpeg) and Flutter for mobile apps. I'm also using Fusion360 for all CNC and 3D printing.
 
-Recently, my [wife](https://opacity.one) and I have started 
+Recently, my [wife](https://opacity.one) and I have started developing an interactive encyclopedia for kids and their parents.
