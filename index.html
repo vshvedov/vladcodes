@@ -12,25 +12,3 @@ layout: default
     and I'm a programmer. If you need to contact me — look under the Dragon in the Source.
   </p>
 </div>
-
-<div class="portfolio">
-  <h1>§ Projects:</h1>
-  <ul class="list">
-      {% for projects in site.data.projects %}
-      <li>
-        <a href="{{ projects.url }}">{{ projects.name }}</a>
-      </li>
-      {% endfor %}
-  </ul>
-</div>
-
-<div class="blog">
-  <h1>§ Notes to self:</h1>
-  <ul class="list">
-    {% for post in site.posts %}
-    <li>
-      <span class="date">{{ post.date | date: '%y %b %d' }}</span> - <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-    {% endfor %}
-  </ul>
-</div>
