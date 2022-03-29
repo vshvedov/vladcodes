@@ -40,18 +40,24 @@ table {
 h1 {
 	padding: 10px !important;
     margin-bottom: 10px;
-	font-size: larger;
 	background-color: fuchsia;
 }
 h2 {
 	padding: 10px !important;
     margin-bottom: 10px;
-	font-size: larger;
 	background-color: lime;
 }
 h3 {
 	padding: 10px !important;
     margin-bottom: 10px;
-	font-size: larger;
 	background-color: yellow;
+}
+
+// UL/LI
+ul li {
+	line-height: 20px !important;
+	padding: 15px !important;
+	padding-left: 30px !important;
+	background-color: lightblue !important;
+	margin: 10px !important;
 }
