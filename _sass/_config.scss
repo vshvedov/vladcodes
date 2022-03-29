@@ -16,3 +16,17 @@ $font-family: "'Ubuntu Mono', ";
 
 // BREAKPOINTS
 $br: 600px;
+
+// HEADERS
+h1 {
+	padding: 10px 0 10px 0 !important;
+    margin-bottom: 10px;
+	font-size: larger;
+	background-color: fuchsia;
+}
+h2 {
+	padding: 10px 0 10px 0 !important;
+    margin-bottom: 10px;
+	font-size: larger;
+	background-color: lime;
+}
