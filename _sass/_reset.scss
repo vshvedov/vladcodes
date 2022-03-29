@@ -38,14 +38,20 @@ table {
 
 // HEADERS
 h1 {
-	padding: 10px 0 10px 0 !important;
+	padding: 10px !important;
     margin-bottom: 10px;
 	font-size: larger;
 	background-color: fuchsia;
 }
 h2 {
-	padding: 10px 0 10px 0 !important;
+	padding: 10px !important;
     margin-bottom: 10px;
 	font-size: larger;
 	background-color: lime;
+}
+h3 {
+	padding: 10px !important;
+    margin-bottom: 10px;
+	font-size: larger;
+	background-color: yellow;
 }
