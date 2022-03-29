@@ -1,6 +1,15 @@
 ---
 layout: about
 ---
+- Ruby/Rails
+- Rack/Sinatra
+- Dart/Flutter
+- Javascript/TypeScript
+- Postgres
+- MySQL/Aurora
+- Elasticsearch/Opensearch
+- AWS
+
 ## Introduction
 
 Hello, I'm [Vlad Shvedov](/assets/img/about/me.jpeg)! I'm Software Engineer. I started programming on my ZX Spectrum 16K clone when I was 10. First, BASIC and then Zilog Z80's Assembler. I spent most of the middle school learning Borland Pascal and OOP on my Intel 80386 SX PC, helping my Dad with scientific calculations and working on an artificial life simulators (as I was sure I'll be a microbiologist). In high school, I found FIDO and had my own BBS with home-brew software running, and kept programming and learning Economics in University, until I finally got unlimited access to the Internet. Here is my story, as of Web Developer begins, as I discovered Perl and CGI.
