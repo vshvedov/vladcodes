@@ -73,6 +73,8 @@ knowledge, to improve the final result of machine-based expertise ad hoc. He
 leads a team of data engineers and is responsible for full cycle development and
 researchers.
 
-In 2016, Vlad joined Labrador OmniMedia, as a Lead Raild Developer to work on
+In 2016, Vlad joined Labrador OmniMedia, as a Ruby/Rails Developer to work on
 TastevinApp - a software dedicated to re-inventing on-premise beverage sales
-and integrate client’s Point of Sale terminals with client-faced iOS software
+and integrate client’s Point of Sale terminals with client-faced iOS software. He was promoted to the Lead Developer two years after that.
+
+During this time Vlad was working on a number of projects and Open Source initiaves, helping Ruby and Rails comunity and keeping his interest in SoC prototyping and 3D printing.
