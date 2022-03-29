@@ -9,5 +9,3 @@ My current scope of interests is closely connected with self-generative systems,
 Music is a big part of my life. I'm not playing in any band anymore, however I have some [music projects](https://www.youtube.com/watch?v=cE3Yqnbgb18), and I'm highly interested in sound synthesis, Eurorack, and modular synths and music making software development.
 
 For web using Ruby/Rails, Arduino C/C++ and Python for [electronics prototyping](/assets/img/about/device.jpeg) and Flutter for mobile apps. I'm also using Fusion360 for all CNC and 3D printing.
-
-Recently, my [wife](https://opacity.one) and I have started developing an interactive encyclopedia for kids and their parents.
