@@ -1,7 +1,7 @@
 ---
 layout: about
 ---
-h2.Introduction
+## Introduction
 
 Hello, I'm [Vlad Shvedov](/assets/img/about/me.jpeg)! I'm Software Engineer. I started programming on my ZX Spectrum 16K clone when I was 10. First, BASIC and then Zilog Z80's Assembler. I spent most of the middle school learning Borland Pascal and OOP on my Intel 80386 SX PC, helping my Dad with scientific calculations and working on an artificial life simulators (as I was sure I'll be a microbiologist). In high school, I found FIDO and had my own BBS with home-brew software running, and kept programming and learning Economics in University, until I finally got unlimited access to the Internet. Here is my story, as of Web Developer begins, as I discovered Perl and CGI.
 
@@ -11,7 +11,7 @@ Music is a big part of my life. I'm not playing in any band anymore, however I h
 
 For everything Web I'm using Ruby/Rails (it's still the best technology for the monolyth web apps). Arduino, C/C++ and Python for [electronics prototyping](/assets/img/about/device.jpeg) and Flutter for mobile apps. I'm also using Fusion360 and Blender for CNC and 3D printing.
 
-h2.Bio
+## Bio for the Press
 
 Vlad has been involved in software development from a young age, having
 initially taught himself low-level programming for gaming as well as assisting
