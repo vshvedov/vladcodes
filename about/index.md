@@ -20,6 +20,12 @@ Music is a big part of my life. I'm not playing in any band anymore, however I h
 
 For everything Web I'm using Ruby/Rails (it's still the best technology for the monolyth web apps). Arduino, C/C++ and Python for [electronics prototyping](/assets/img/about/device.jpeg) and Flutter for the mobile apps. I'm also using Fusion360 and Blender for CNC and 3D printing.
 
+## Quick facts
+
+- Done today is better than a perfect tomorrow
+- Monolith apps with a simple UI are better than microservices and dependencies hell
+- I don't have a dream job because I don't dream of labor
+
 ## Bio for the Press
 
 Vlad has been involved in software development from a young age, having
