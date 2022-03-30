@@ -16,7 +16,7 @@ Hello, I'm [Vlad Shvedov](/assets/img/about/me.jpeg)! I'm Software Engineer. I s
 
 My current scope of interests is closely connected to generative systems, distributed and reactive Web Applications development, FDM and SLA 3D Printing, CNC (I made the electronics for [my CNC milling machine](/assets/img/about/cnc.jpeg)) and woodworking (most of all I'm interested in making [electric guitars](/assets/img/about/tele.jpeg)) and printing [3D models I sculpted](/assets/img/about/3d.jpeg).
 
-Music is a big part of my life. I'm not playing in any band anymore, however I have some [music projects](https://www.youtube.com/watch?v=cE3Yqnbgb18), and I'm very interested in sound synthesis, old-school CASIO and modular synths and Eurorack.
+Music is a big part of my life. I'm not playing in any band anymore, however I have some [music projects](https://www.youtube.com/watch?v=cE3Yqnbgb18), and I'm very interested in sound synthesis, old-school CASIO, modular synths and Eurorack. I'm also developing an [iOS noise synth](https://youtu.be/WnUGSSEwWgw).
 
 For everything Web I'm using Ruby/Rails (it's still the best technology for the monolyth web apps). Arduino, C/C++ and Python for [electronics prototyping](/assets/img/about/device.jpeg) and Flutter for the mobile apps. I'm also using Fusion360 and Blender for CNC and 3D printing.
 
