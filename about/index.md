@@ -26,6 +26,20 @@ For everything Web I'm using Ruby/Rails (it's still the best technology for the 
 - Monolith apps with a simple UI are better than microservices and dependencies hell
 - I don't have a dream job because I don't dream of labor
 
+## Books I read two or more times
+
+- Hobbit/LOtR
+- William Gibson's Sprawl Trilogy
+- Cryptonomicon
+- The Kingkiller Chronicle
+- The Anarchist Encyclopedia
+
+## Fun facts
+
+- Odd numbers are the best
+- I love dogs
+- I never finished Baldur's Gate 1, but it's my fav game
+
 ## Bio for the Press
 
 Vlad has been involved in software development from a young age, having
