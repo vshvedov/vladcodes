@@ -3,26 +3,17 @@ layout: post
 title: Manual testing
 ---
 
-> There are five main guidelines for manual testing. Each supplied with several examples. Examples, of course, can't cover all the possible scenarios, so try to follow general rules, use common sense, and feel free to add examples to this list.
+Software testing is a crucial aspect of the development process and plays a key role in ensuring the quality and reliability of your product. While automated testing is a valuable tool that can help you catch many bugs and issues early on, it's important to remember that manual testing still has a crucial role to play in the software development process. In this blog post, we'll explore why manual testing is so important and why it's not enough to rely solely on automated testing.
 
-* 1. **Sanity checks**
+1.  Detecting Human Errors: Automated tests are only as good as the code that drives them. If your tests contain bugs or errors, they won't be able to catch everything. Manual testing, on the other hand, provides an opportunity for a human tester to examine the software and look for issues that automated tests may miss, such as human errors or missing functionality.
+    
+2.  Exploratory Testing: Automated tests are designed to test specific cases, but they can't replace the creativity and intuition of a human tester. Manual testing allows for exploratory testing, where the tester can test the software in a more flexible and open-ended manner, which can lead to the discovery of unexpected issues and edge cases that automated tests might miss.
+    
+3.  User Experience: Automated tests can't replicate the experience of a real user, who might interact with your software in unexpected ways. Manual testing provides an opportunity for testers to evaluate the software from the perspective of a real user and ensure that it meets their needs and expectations.
+    
+4.  Hard-to-Automate Tests: Some types of testing, such as accessibility testing or security testing, can be difficult or even impossible to automate. In these cases, manual testing is crucial in ensuring that your software meets the necessary standards and requirements.
+    
+5.  Confidence in Automated Tests: While automated tests can save a lot of time and effort, they're only as good as the code that drives them. Manual testing provides an opportunity to validate the results of automated tests and build confidence in their accuracy and reliability.
+    
 
-First, you need to test through the browser every single line of code you created, edited, or removed. Even if you edited a typo in a string constant, find a place in UI where it is rendered and check it. Make sure to test everything well, mind corner cases and user grants. When you create/change rendering of the list of users, messages or any other list, make sure pagination works, make sure the page renders correctly and shows a meaningful message for the empty list. When you create/edit action for stuff, the rule of thumb is to test it with a role other than admin: since admin has all grants by default, it's a common mistake to forget to add abilities for other roles. When testing Ajax response, or anything that is dynamically rendered with js, don't forget to reload the page to make sure it persisted correctly, and backend renders the same data. After reloading double-check places where you output or use user input: these places must sanitize strings, account for long strings, empty values, long words without spaces, line breaks and other corner cases for forms. Make sure to test different select/checkbox options, it's not enough to go with defaults. Always remember about flash notifications: users have to know what is going on after their actions.
-
-* 2. **Negative scenarios**
-
-Always test negative scenarios: validation errors should be correctly rendered with meaningful messages, clearly readable in English. Access should be reasonably restricted, don't forget about non-UI scenarios, and restrictions about URL could be manually pasted. Don't forget we may not always have only GET from users, test negative scenarios (when users do `PUT`, `DELETE` and so on) too.
-
-* 3. **Inderect changes**
-
-Most important is to test functionality that you haven't changed directly, but which reuses the same code. It is needed to make sure there is no regression issues. If you edit business logic, model method, scope, etc., find all usages through the project and open all the pages, and perform all the actions that use changed method. If you edit partial, find all the uses of this partial and make sure all these pages or responses render without problems. If you edit controller/view that is being used by several roles (even if your functionality relates to one role), check actions of this controller with each role, make sure there are no errors, that all required functionality is present, and that no partials/buttons from other roles have been rendered by mistake. If you edit CSS class, make sure all uses of this class are rendered as expected.
-
-* 4. **Environments differences**
-
-Mind the difference in development and production environments. Something that works in development might break with production config. If you edit assets, make sure rake assets:precompile runs without errors. If you add migrations, make sure they run in both directions and, if you make several migrations, they can be run all at once. Rails’ assets pipeline could be your friend, or some small CSS change could make the whole application inaccessible in Production.
-
-* 5. **More sanity checks**
-
-Remember, red specs help you discover some of these problems much faster, but green specs don't guarantee that everything is perfect. That's why we absolutely need manual testing combined with automated tests. Keep guard running all the time to make local continuous testing before pull-requesting.
-
-> And rule zero (to rule them all, and in the darkness bind them) is: when doing manual testing, always think of what you are doing; because, while we have rspec/unit tests and Cucumber for automated tests, nothing can replace testing made by a developer.
+In conclusion, while automated testing is a valuable tool in the software development process, manual testing is still a crucial part of ensuring the quality and reliability of your product. By combining automated testing with manual testing, you can ensure that your software is thoroughly tested and free of bugs and issues. So don't be tempted to rely solely on automated testing - make sure to include manual testing as part of your development process and enjoy the benefits of a well-tested and reliable product.
