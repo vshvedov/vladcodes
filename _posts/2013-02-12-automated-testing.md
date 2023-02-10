@@ -14,27 +14,19 @@ By itself, as automated tests are nothing more than a code used to automate manu
 * Isolated
 * Deterministic
 
-## General automated testing best practices 
+Legacy and complex web applications can be a real challenge for software development teams. With a large codebase and a long history of changes and additions, it can be difficult to ensure the quality and reliability of these applications. That's why automated testing is so important for these types of applications.
 
-There are a number of simple best practices of achieving the goal, when automated tests go together with a feature development (or before it, if we are talking about TDD/BDD), helping a developer and a team do things faster than without tests:
-In order to achieve both maintainability and readability of the tests, they must verify Business Functionality, and they must not rely on any implementation details. If your tests rely on a specific implementation details, then once these details are changed, your tests will break.
+In this blog post, we'll explore why automated testing is critical for legacy and complex web applications and how it can help you overcome the challenges that come with these types of applications.
 
-### Scenarios
+1.  Maintaining Quality: With a large and complex codebase, it can be difficult to maintain the quality of a legacy web application. Automated tests can help you ensure that new changes and additions to the codebase don't introduce new bugs or break existing functionality. By automatically testing your application after every change, you can catch issues early and prevent them from becoming bigger problems down the line.
+    
+2.  Improved Reliability: Legacy and complex web applications often have a long history of changes and additions, which can lead to a complex and fragile codebase. Automated tests can help you ensure that your application remains reliable, even as you make changes to the code. By automatically testing the application after every change, you can catch any issues before they have a chance to cause problems.
+    
+3.  Speed and Efficiency: Manually testing a large and complex web application can be a time-consuming and labor-intensive process. Automated testing can help you speed up the testing process and be more efficient, allowing you to test more of your application in less time. With automated testing, you can test your application more thoroughly and more often, increasing the chances of catching issues early.
+    
+4.  Consistency: Legacy and complex web applications often have a large number of interdependent components. Automated tests can help you ensure that changes to one part of the application don't have unintended consequences for other parts of the application. By automatically testing the application after every change, you can catch any issues before they have a chance to cause problems.
+    
+5.  Regression Testing: Regression testing is an important part of ensuring the quality and reliability of a legacy or complex web application. Automated tests can help you perform regression testing more efficiently and effectively, ensuring that changes to the code don't break existing functionality.
+    
 
-Good tests must describe a simple scenario from the perspective of the user. A single test can describe a scenario that spans different users (roles) in different times. You have to try to avoid a situation when you’re testing technical aspects of the system’s state, if this is not a goal of the test. You have to make automated tests as atomic as possible, always paying attention on potential randomness in order of tests execution.
-To ensure that the tests are readable and reflect user scenario, always write your tests in a Top to the Bottom manner. Focus on what you want to test rather then how; try hard to avoid duplications; DRY your code as the second round of self review before the pull request. However, if you really feel that drying is going to take too long, leave it as is and ask for help with a TODO comment.
-Tests should create all data or environment conditions that are relevant to them at the beginning, and clean them up afterwards. While automated tests are nothing more than a “code plus testing” framework, they should always go through a code review. Tests should not depend on anything outside of them that may change. This includes the order of performing of the tests, date and time, random generator – keep in mind random execution, use specific techniques to freeze the time, and so on.
-
-## Rspec best practices 
-
-Rspec is a great tool in the behavior-driven development, and we need to fully use its potential, to make the automated test’s code reliable and maintainable. Here is the number of general guidelines for your Rspec specs: 
-Be clear about what method you are describing. For instance, use the Ruby documentation convention of . (or ::) when referring to a class method's name, and # when referring to an instance method's name.
-
-* Always use contexts: they are a powerful method of making your tests clear and well organized. In the long term, this practice will keep tests easy to read.
-* Keep descriptions short and easily readable in English.
-* You always have to create single-expectations specs.
-* Test all possible cases, starting with edge cases for minimum/maximum, or false/true, values (so call 0/1 testing).
-* Keep guard always turned on.
-* Use pseudo-random data (like faker/ffaker Ruby gems) instead of lame test input like: 'a@a.com', '123123', 'John Doe'
-
-More specific guidelines are highly connected with Rspec framework itself, they are always a point for discussion during code reviews.
+In conclusion, automated testing is critical for legacy and complex web applications. With its ability to maintain quality, improve reliability, speed up the testing process, ensure consistency, and perform regression testing, automated testing can help you overcome the challenges of these types of applications and ensure that your application is of the highest quality. So if you're working with a legacy or complex web application, make sure to include automated testing as part of your development process.
