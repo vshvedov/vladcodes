@@ -1,3 +1,7 @@
+---
+layout: post
+title: The Future of Web Development
+---
 
 The future of web development is constantly evolving, shaped by the ever-growing demands of the digital age. As technology continues to advance, web developers must stay ahead of the curve in order to create websites and applications that meet the needs of their users.
 
