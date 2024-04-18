@@ -12,7 +12,7 @@ layout: about
 
 ## Introduction
 
-Hello, I'm [Vlad Shvedov](/assets/img/about/me.jpeg)! I'm Software Engineer. I started programming on my ZX Spectrum 16K clone when I was 10. First, BASIC and then Zilog Z80's Assembler. I spent most of the middle school learning Borland Pascal and OOP on my Intel 80386 SX PC, helping my Dad with scientific calculations and working on an artificial life simulators (as I was sure I'll be a microbiologist). In high school, I found about FIDO (2:5124/2110) and had my own BBS (WerewolfBBS T: 44-65-28) with a home-brew (Pascal-based) software running, and kept programming and learning Economics in University, until I finally got an unlimited access to the Internet. Here is my story, as of Web Developer begins, as I discovered Perl and CGI programming, which was my two first tools (and I'm really happy that Ruby exists).
+Hello, I'm [Vladyslav](/assets/img/about/me.jpeg)! I'm Software Engineer. I started programming on my ZX Spectrum 16K clone when I was 10. First, BASIC and then Zilog Z80's Assembler. I spent most of the middle school learning Borland Pascal and OOP on my Intel 80386 SX PC, helping my Dad with scientific calculations and working on an artificial life simulators (as I was sure I'll be a microbiologist). In high school, I found about FIDO (2:5124/2110) and had my own BBS (WerewolfBBS T: 44-65-28) with a home-brew (Pascal-based) software running, and kept programming and learning Economics in University, until I finally got an unlimited access to the Internet. Here is my story, as of Web Developer begins, as I discovered Perl and CGI programming, which was my two first tools (and I'm really happy that Ruby exists).
 
 My current scope of interests is closely connected to generative systems, distributed and reactive Web Applications development, FDM and SLA 3D Printing, CNC (I made the electronics for [my CNC milling machine](/assets/img/about/cnc.jpeg)) and woodworking (most of all I'm interested in making [electric guitars](/assets/img/about/tele.jpeg)) and printing [3D models I sculpted](/assets/img/about/3d.jpeg).
 
@@ -42,7 +42,7 @@ For everything Web I'm using Ruby/Rails (it's still the best technology for the 
 
 ## Bio for the Press
 
-Vlad has been involved in software development from a young age, having
+Vladyslav has been involved in software development from a young age, having
 initially taught himself low-level programming for gaming as well as assisting
 his Father in scientific calculations automation since the age of 13.
 Vlad graduated from the University of G. E. Weinstein's in applied Economics
@@ -52,9 +52,8 @@ Award’ for his final project, combining his Economic Science and programming
 experience, by developing an HR management and prediction platform for a
 local food factory.
 
-Vlad started his career at Masquerade, a games development studio. Here he
-was quickly promoted, managing a team, as well as being the lead developer.
-Masquerade inspired Vlad to set up his own company, co-founding a Video on
+Vlad started his career at Masquerade, a games development studio he co-founded with his school friends.
+Masquerade inspired Vlad to set up another company, co-founding a Video on
 Demand platform, where he held the role of CTO. It was during this venture he
 developed a deep interest in machine-based algorithmic suggestions, based on
 user's interests, from user viewings data and Facebook data. Vlad’s hard work
@@ -71,7 +70,7 @@ During this period he also developed highload experience in TOP1 (by Alexa
 rate) gaming portal Y8.com.
 
 In 2012, Vlad became a Director of Engineering at Helios Technologies. Here he
-built the team from scratch in Odessa and continued his team leading on
+built the team from scratch and continued his team leading on
 projects such as ID.net (inetidetity and secure payments platform),
 TrafficFactory (analytical and advertisement platform) and Ant.com (a
 social-based search engine with a Natural Language Processing and social
