@@ -9,10 +9,11 @@ layout: default
     Hello, my name is Vladyslav
     <img class="userpic" src="/assets/img/favicon.jpg" />
     (*waves*)
-    and I'm a Father, Husband, Web Software and Game Developer.
+    and I'm a Father, Husband, Web and Mobile software developer, 
+    and <a href="https://www.thingiverse.com/thing:4808672" target="blank">3D printing enthusiast</a>.
     This is my World Wide Web page in the <a href="/assets/img/404.gif" target="blank">Internet</a> 
-    personal computers network. It's made using HTML and CSS: two great technologies which modern
-    Web Development should use more frequently.
+    personal computers network. It's made using HTML and CSS, two great technologies that modern
+    Web Development should be used more frequently.
     </br>
     <pre style="text-align: center;">
       ______________
@@ -35,15 +36,4 @@ layout: default
 `-----------------------'
     </pre>
   </p>
-</div>
-
-<div class="blog">
-  <h2>§ Web Log:</h2>
-  <ul class="list">
-    {% for post in site.posts %}
-    <li>
-      <span class="date">{{ post.date | date: '%y %b %d' }}</span> - <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-    {% endfor %}
-  </ul>
 </div>
