@@ -280,7 +280,7 @@ ul.list {
 .timeline-content::before {
     content: '';
     position: absolute;
-    top: -30px;
+    top: 20px;
     width: 0;
     height: 0;
     border: 12px solid transparent;
@@ -288,18 +288,25 @@ ul.list {
 }
 
 .timeline-item:nth-child(odd) .timeline-content::before {
-    right: 20px;
-    border-bottom-color: var(--app-item-border);
+    right: -24px;
+    border-left-color: var(--app-item-border);
 }
 
 .timeline-item:nth-child(even) .timeline-content::before {
-    left: 20px;
-    border-bottom-color: var(--app-item-border);
+    left: -24px;
+    border-right-color: var(--app-item-border);
 }
 
 .timeline-content:hover::before {
-    border-bottom-color: var(--link-color);
-    transform: translateY(-2px);
+    transform: scale(1.1);
+}
+
+.timeline-item:nth-child(odd) .timeline-content:hover::before {
+    border-left-color: var(--link-color);
+}
+
+.timeline-item:nth-child(even) .timeline-content:hover::before {
+    border-right-color: var(--link-color);
 }
 
 .timeline-content h3 {
@@ -352,17 +359,18 @@ ul.list {
 
     .timeline-item:nth-child(odd) .timeline-content::before,
     .timeline-item:nth-child(even) .timeline-content::before {
-        left: -30px;
+        left: -24px;
         right: auto;
-        top: -30px;
+        top: 20px;
         border-left-color: transparent;
-        border-right-color: transparent;
-        border-bottom-color: var(--app-item-border);
+        border-right-color: var(--app-item-border);
+        border-bottom-color: transparent;
         border-top-color: transparent;
     }
 
     .timeline-item:nth-child(odd) .timeline-content:hover::before,
     .timeline-item:nth-child(even) .timeline-content:hover::before {
-        border-bottom-color: var(--link-color);
+        border-right-color: var(--link-color);
+        border-left-color: transparent;
     }
 }
