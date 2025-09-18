@@ -38,14 +38,7 @@ $color-hire-shadow: rgba(0, 0, 0, 0.2);
 }
 
 // FONT
-@font-face {
-  font-family: 'DOS VGA';
-  src: url('/assets/ttf/dos_vga.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-$font-family: "'DOS VGA', monospace";
+$font-family: "'JetBrains Mono', 'Fira Code', 'Source Code Pro', monospace";
 
 // BREAKPOINTS
 $br: 600px;
