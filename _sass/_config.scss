@@ -27,7 +27,7 @@ $color-hire-shadow: rgba(0, 0, 0, 0.2);
   :root {
     --bg-color: #1a1a1a;
     --text-color: #e0e0e0;
-    --text-secondary: #ffffff;
+    --text-secondary: #000000;
     --border-color: #333333;
     --link-color: #6ba3f5;
     --code-bg: #2a2a2a;
@@ -36,10 +36,6 @@ $color-hire-shadow: rgba(0, 0, 0, 0.2);
     --app-item-border: #404040;
   }
 }
-
-// FONT
-$font-url: "https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic";
-$font-family: "'Ubuntu Mono', ";
 
 // BREAKPOINTS
 $br: 600px;
