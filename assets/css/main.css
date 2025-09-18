@@ -374,3 +374,257 @@ ul.list {
         border-left-color: transparent;
     }
 }
+
+/* About Page Styling */
+.about__content {
+    animation: fadeInUp 0.8s ease-out;
+}
+
+/* Skills List Styling */
+.about__content ul:first-of-type {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+    margin: 30px 0;
+}
+
+.about__content ul:first-of-type li {
+    background: var(--app-item-bg);
+    border: 1px solid var(--app-item-border);
+    border-radius: 12px;
+    padding: 15px 20px;
+    text-align: center;
+    font-weight: 600;
+    color: var(--text-secondary);
+    transition: all 0.3s ease;
+    transform: translateY(20px);
+    opacity: 0;
+    animation: skillFadeIn 0.6s ease-out forwards;
+    position: relative;
+    overflow: hidden;
+}
+
+.about__content ul:first-of-type li:nth-child(1) { animation-delay: 0.1s; }
+.about__content ul:first-of-type li:nth-child(2) { animation-delay: 0.2s; }
+.about__content ul:first-of-type li:nth-child(3) { animation-delay: 0.3s; }
+.about__content ul:first-of-type li:nth-child(4) { animation-delay: 0.4s; }
+.about__content ul:first-of-type li:nth-child(5) { animation-delay: 0.5s; }
+.about__content ul:first-of-type li:nth-child(6) { animation-delay: 0.6s; }
+.about__content ul:first-of-type li:nth-child(7) { animation-delay: 0.7s; }
+
+.about__content ul:first-of-type li::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(107, 163, 245, 0.1), transparent);
+    transition: left 0.5s ease;
+}
+
+.about__content ul:first-of-type li:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 8px 25px rgba(107, 163, 245, 0.2);
+    border-color: var(--link-color);
+}
+
+.about__content ul:first-of-type li:hover::before {
+    left: 100%;
+}
+
+/* Introduction Section */
+.about__content h2:first-of-type + p {
+    background: var(--app-item-bg);
+    border: 1px solid var(--app-item-border);
+    border-radius: 16px;
+    padding: 25px;
+    margin: 25px 0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    position: relative;
+    transition: all 0.4s ease;
+    animation: slideInLeft 0.8s ease-out;
+}
+
+.about__content h2:first-of-type + p:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(107, 163, 245, 0.15);
+    border-color: var(--link-color);
+}
+
+/* Multi-paragraph sections */
+.about__content p {
+    background: var(--app-item-bg);
+    border: 1px solid var(--app-item-border);
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px 0;
+    transition: all 0.3s ease;
+    animation: fadeInUp 0.6s ease-out;
+    position: relative;
+}
+
+.about__content p:nth-of-type(2) { animation-delay: 0.2s; }
+.about__content p:nth-of-type(3) { animation-delay: 0.4s; }
+.about__content p:nth-of-type(4) { animation-delay: 0.6s; }
+.about__content p:nth-of-type(5) { animation-delay: 0.8s; }
+
+.about__content p:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(107, 163, 245, 0.1);
+}
+
+/* Facts Sections */
+.about__content h2 + ul {
+    display: grid;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+    margin: 25px 0;
+}
+
+.about__content h2 + ul li {
+    background: var(--app-item-bg);
+    border: 1px solid var(--app-item-border);
+    border-radius: 12px;
+    padding: 18px 22px;
+    transition: all 0.4s ease;
+    position: relative;
+    transform: translateX(-30px);
+    opacity: 0;
+    animation: slideInRight 0.6s ease-out forwards;
+    overflow: hidden;
+}
+
+.about__content h2 + ul li:nth-child(1) { animation-delay: 0.1s; }
+.about__content h2 + ul li:nth-child(2) { animation-delay: 0.3s; }
+.about__content h2 + ul li:nth-child(3) { animation-delay: 0.5s; }
+.about__content h2 + ul li:nth-child(4) { animation-delay: 0.7s; }
+.about__content h2 + ul li:nth-child(5) { animation-delay: 0.9s; }
+
+.about__content h2 + ul li::before {
+    content: '→';
+    color: var(--link-color);
+    font-weight: bold;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+}
+
+.about__content h2 + ul li:hover {
+    transform: translateX(5px) scale(1.01);
+    box-shadow: 0 6px 20px rgba(107, 163, 245, 0.15);
+    border-color: var(--link-color);
+}
+
+.about__content h2 + ul li:hover::before {
+    transform: translateX(5px);
+}
+
+/* Section Headers */
+.about__content h2 {
+    color: var(--text-secondary);
+    font-size: 1.8em;
+    font-weight: 700;
+    margin: 40px 0 20px 0;
+    position: relative;
+    padding-left: 20px;
+    animation: slideInLeft 0.6s ease-out;
+}
+
+.about__content h2::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 4px;
+    height: 30px;
+    background: linear-gradient(to bottom, var(--link-color), var(--text-secondary));
+    border-radius: 2px;
+}
+
+/* Links styling enhancement */
+.about__content a {
+    color: var(--link-color);
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+.about__content a:hover {
+    background: rgba(107, 163, 245, 0.1);
+    border-bottom-color: var(--link-color);
+    transform: translateY(-1px);
+}
+
+/* Animations */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes skillFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Mobile responsive adjustments */
+@media screen and (max-width: 768px) {
+    .about__content ul:first-of-type {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 10px;
+    }
+
+    .about__content ul:first-of-type li {
+        padding: 12px 16px;
+        font-size: 0.9em;
+    }
+
+    .about__content h2 {
+        font-size: 1.5em;
+        margin: 30px 0 15px 0;
+    }
+
+    .about__content p {
+        padding: 16px;
+        margin: 15px 0;
+    }
+}
