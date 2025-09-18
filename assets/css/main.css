@@ -1,0 +1,202 @@
+/* Compiled CSS from main.scss */
+
+:root {
+  --bg-color: #FFFFFF;
+  --text-color: #282828;
+  --text-secondary: #1a1a1a;
+  --border-color: #f0f0f0;
+  --link-color: #1A0DAB;
+  --code-bg: #EEEEEE;
+  --code-color: #00FF00;
+  --app-item-bg: #f9f9f9;
+  --app-item-border: #e0e0e0;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #1a1a1a;
+    --text-color: #e0e0e0;
+    --text-secondary: #000000;
+    --border-color: #333333;
+    --link-color: #6ba3f5;
+    --code-bg: #2a2a2a;
+    --code-color: #00ff88;
+    --app-item-bg: #2a2a2a;
+    --app-item-border: #404040;
+  }
+}
+
+body {
+    color: var(--text-color);
+    background: var(--bg-color);
+    font-family: 'JetBrains Mono', 'Fira Code', 'Source Code Pro', monospace;
+    font-size: 100%;
+    font-weight: 400;
+}
+
+blockquote {
+  font-weight: bold;
+}
+
+b {
+  font-weight: 700;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 1em;
+    line-height: 150%;
+}
+
+p.about {
+    padding: 10px 0 30px 0;
+}
+
+p.about b {
+    font-weight: 700;
+    font-size: 1.4em;
+    display: block;
+    margin: 20px 0 15px 0;
+    color: var(--text-secondary);
+    border-bottom: 2px solid var(--border-color);
+    padding-bottom: 8px;
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+a:visited {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--link-color);
+  text-decoration: underline;
+}
+
+a:active {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    line-height: 20px;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    ul li {
+        padding: 10px 0 10px 0;
+    }
+}
+
+ol {
+    list-style-position: inside;
+}
+
+ol li {
+    line-height: 20px;
+    padding: 5px 0;
+}
+
+ul.list {
+    padding-top: 10px;
+}
+
+.userpic {
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    border-radius: 3px;
+    margin-right: 2px;
+    margin-left: 2px;
+    vertical-align: top;
+    position: relative;
+    top: 5px;
+}
+
+.wrapper {
+    max-width: 600px;
+    margin: auto;
+    padding: 60px 30px 60px 30px;
+}
+
+@media screen and (max-width: 600px) {
+    .wrapper {
+        padding: 20px;
+    }
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .header {
+        display: block;
+    }
+}
+
+.header h1 {
+    font-size: 2em;
+    margin-bottom: 0;
+}
+
+.header ul {
+    margin-top: 10px;
+    width: 400px;
+}
+
+.header ul li {
+    display: inline;
+    padding: 0;
+    padding-left: 5px;
+}
+
+.app-item {
+    background: var(--app-item-bg);
+    border: 1px solid var(--app-item-border);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.app-item h2 {
+    color: var(--text-secondary);
+    font-size: 1.3em;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.app-item p {
+    color: var(--text-color);
+    margin-bottom: 10px;
+}
+
+.app-item p:last-child {
+    margin-bottom: 0;
+}
+
+.app-item a {
+    color: var(--link-color);
+    margin-right: 10px;
+}
+
+.app-item a:hover {
+    text-decoration: underline;
+}

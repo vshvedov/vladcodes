@@ -7,7 +7,7 @@
 body {
     color: var(--text-color);
     background: var(--bg-color);
-    font-family: $font-family;
+    font-family: 'JetBrains Mono', 'Fira Code', 'Source Code Pro', monospace !important;
     font-size: 100%;
     font-weight: 400;
 }
