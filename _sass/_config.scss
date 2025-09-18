@@ -10,6 +10,33 @@ $color-hire-green: #B6EFD4;
 $color-hire-blue: #A0CCDA;
 $color-hire-shadow: rgba(0, 0, 0, 0.2);
 
+// THEME COLORS
+:root {
+  --bg-color: #{$color-white};
+  --text-color: #282828;
+  --text-secondary: #1a1a1a;
+  --border-color: #f0f0f0;
+  --link-color: #{$color-link};
+  --code-bg: #{$color-grey};
+  --code-color: #{$color-code};
+  --app-item-bg: #f9f9f9;
+  --app-item-border: #e0e0e0;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #1a1a1a;
+    --text-color: #e0e0e0;
+    --text-secondary: #c0c0c0;
+    --border-color: #333333;
+    --link-color: #6ba3f5;
+    --code-bg: #2a2a2a;
+    --code-color: #00ff88;
+    --app-item-bg: #2a2a2a;
+    --app-item-border: #404040;
+  }
+}
+
 // FONT
 $font-url: "https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic";
 $font-family: "'Ubuntu Mono', ";
