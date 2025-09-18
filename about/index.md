@@ -43,45 +43,100 @@ To this day, game development remains my favorite hobby, and I always have a cou
   
 ## Bio
 
-Vladyslav has been involved in software development from a young age, having
-initially taught himself low-level programming for gaming, as well as assisting
-his Father in scientific calculations automation since the age of 13.
-Vlad graduated from the Odesa National University of Technology.
+<div class="timeline" id="career-timeline">
+  <div class="timeline-item" data-year="1995">
+    <div class="timeline-marker"></div>
+    <div class="timeline-content">
+      <h3>Programming Begins</h3>
+      <p>Started programming at age 10 on ZX Spectrum 16K clone with BASIC and Z80 Assembler</p>
+    </div>
+  </div>
 
-Vlad started his career at Masquerade, a games development studio he co-founded with his school friends.
-Masquerade inspired Vlad to set up another company, co-founding a Video on
-Demand platform, where he held the role of CTO. It was during this venture he
-developed a deep interest in machine-based algorithmic suggestions, based on
-user's interests, from user viewings and social media data.
+  <div class="timeline-item" data-year="2000">
+    <div class="timeline-marker"></div>
+    <div class="timeline-content">
+      <h3>Pascal & OOP</h3>
+      <p>Learned Borland Pascal and OOP, helping Dad with scientific calculations and working on artificial life simulator</p>
+    </div>
+  </div>
 
-Following on from this success, Vlad advised several Silicon Valley startups
-including his assistance at DataXu and developing the core of Toptal, as the
-company’s employee number one.
+  <div class="timeline-item" data-year="2005">
+    <div class="timeline-marker"></div>
+    <div class="timeline-content">
+      <h3>BBS & Networking</h3>
+      <p>Discovered FIDO network (2:5124/2110) and ran WerewolfBBS (T: 44-65-28) with custom Pascal-based software</p>
+    </div>
+  </div>
 
-His main area of specializing was next-generation advertising platforms
-developing, technical management and platforms architecturing.
-During this period he also developed highload websites experience.
+  <div class="timeline-item" data-year="2008">
+    <div class="timeline-marker"></div>
+    <div class="timeline-content">
+      <h3>University & Web Development</h3>
+      <p>Graduated from Odesa National University of Technology. Discovered Perl and CGI programming - first web tools</p>
+    </div>
+  </div>
 
-In 2012, Vlad became a Director of Engineering at Helios Technologies. Here he
-built the team from scratch and continued his team leading on
-projects such as ID.net (inetidetity and secure payments platform),
-TrafficFactory (analytical and advertisement platform) and Ant.com.
+  <div class="timeline-item" data-year="2009">
+    <div class="timeline-marker"></div>
+    <div class="timeline-content">
+      <h3>Masquerade Games Studio</h3>
+      <p>Co-founded games development studio with school friends - career officially begins</p>
+    </div>
+  </div>
 
-In 2014, Vlad joined ProFinda as he was excited about the ability to use AI to
-help companies be more efficient. Here he leads the development work
-combining Artificial Intelligence, Natural Language Processing, Machine
-Learning and Algorithmic Suggestions. Vlad’s goal was to achieve the state of
-when the whole Intelligence stack is acting as a set of fault-tolerant and
-independent applications, with an ability to add new entities, data and
-knowledge, to improve the final result of machine-based expertise ad hoc. He
-leads a team of data engineers and is responsible for full cycle development and
-researchers.
+  <div class="timeline-item" data-year="2010">
+    <div class="timeline-marker"></div>
+    <div class="timeline-content">
+      <h3>Video on Demand Platform</h3>
+      <p>Co-founded VoD platform as CTO. Developed interest in machine-based algorithmic suggestions from user data</p>
+    </div>
+  </div>
 
-In 2016, Vlad joined Labrador OmniMedia, as a Senior Software Developer to work on
-TastevinApp— a software dedicated to re-inventing on-premise food and beverage sales
-and integrate client’s Point of Sale terminals with client-faced iOS/Android software. 
-He was promoted to the Lead Developer two years after that.
+  <div class="timeline-item" data-year="2011">
+    <div class="timeline-marker"></div>
+    <div class="timeline-content">
+      <h3>Silicon Valley Startups</h3>
+      <p>Advised startups including DataXu and became employee #1 at Toptal, specializing in advertising platforms</p>
+    </div>
+  </div>
 
-During this time Vlad was working on a number of projects and Open Source initiaves, 
-helping Ruby and Rails and Flutter comunities and keeping his interest in game development 
-and 3D printing.
+  <div class="timeline-item" data-year="2012">
+    <div class="timeline-marker"></div>
+    <div class="timeline-content">
+      <h3>Director of Engineering</h3>
+      <p>Joined Helios Technologies, built team from scratch for ID.net, TrafficFactory, and Ant.com projects</p>
+    </div>
+  </div>
+
+  <div class="timeline-item" data-year="2014">
+    <div class="timeline-marker"></div>
+    <div class="timeline-content">
+      <h3>AI & Machine Learning</h3>
+      <p>Joined ProFinda to work on AI, NLP, and ML for business efficiency. Led fault-tolerant intelligence stack development</p>
+    </div>
+  </div>
+
+  <div class="timeline-item" data-year="2016">
+    <div class="timeline-marker"></div>
+    <div class="timeline-content">
+      <h3>Senior Developer</h3>
+      <p>Joined Labrador OmniMedia for TastevinApp - POS integration with mobile apps</p>
+    </div>
+  </div>
+
+  <div class="timeline-item" data-year="2018">
+    <div class="timeline-marker"></div>
+    <div class="timeline-content">
+      <h3>Lead Developer</h3>
+      <p>Promoted to Lead Developer. Active in Ruby/Rails and Flutter communities, game development, and 3D printing</p>
+    </div>
+  </div>
+
+  <div class="timeline-item" data-year="2024">
+    <div class="timeline-marker"></div>
+    <div class="timeline-content">
+      <h3>LLMs & AI Focus</h3>
+      <p>Current interests: LLMs, agentic systems, distributed web apps, 3D printing, CNC, woodworking, and music synthesis</p>
+    </div>
+  </div>
+</div>
