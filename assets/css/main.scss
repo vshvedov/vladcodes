@@ -68,6 +68,14 @@ ul {
     }
 }
 
+ol {
+    list-style-position: inside;
+    li {
+        line-height: 20px;
+        padding: 5px 0;
+    }
+}
+
 ul.list {
     padding-top: 10px;
 }
