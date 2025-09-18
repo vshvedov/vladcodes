@@ -31,7 +31,6 @@ document.addEventListener('DOMContentLoaded', function() {
     // Add click interaction for mobile
     timelineItems.forEach(item => {
         const content = item.querySelector('.timeline-content');
-        const marker = item.querySelector('.timeline-marker');
 
         item.addEventListener('click', function() {
             // Remove active class from all items
@@ -42,10 +41,10 @@ document.addEventListener('DOMContentLoaded', function() {
             // Add active class to clicked item
             this.classList.add('timeline-active');
 
-            // Add a pulse effect to the marker
-            marker.style.animation = 'pulse 0.6s ease-out';
+            // Add a pulse effect to the content
+            content.style.animation = 'contentPulse 0.6s ease-out';
             setTimeout(() => {
-                marker.style.animation = '';
+                content.style.animation = '';
             }, 600);
         });
     });
@@ -61,21 +60,16 @@ document.addEventListener('DOMContentLoaded', function() {
 // Add CSS animation for pulse effect
 const style = document.createElement('style');
 style.textContent = `
-    @keyframes pulse {
-        0% { transform: translateX(-50%) scale(1); }
-        50% { transform: translateX(-50%) scale(1.4); }
-        100% { transform: translateX(-50%) scale(1); }
+    @keyframes contentPulse {
+        0% { transform: translateY(-8px) scale(1.02); }
+        50% { transform: translateY(-12px) scale(1.05); }
+        100% { transform: translateY(-8px) scale(1.02); }
     }
 
     .timeline-active .timeline-content {
         border-color: var(--link-color);
-        box-shadow: 0 5px 25px rgba(107, 163, 245, 0.2);
-    }
-
-    .timeline-active .timeline-marker {
-        background: var(--link-color);
-        transform: translateX(-50%) scale(1.1);
-        box-shadow: 0 0 20px rgba(107, 163, 245, 0.4);
+        box-shadow: 0 8px 30px rgba(107, 163, 245, 0.3);
+        transform: translateY(-8px) scale(1.02);
     }
 `;
 document.head.appendChild(style);
