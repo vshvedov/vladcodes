@@ -1,13 +1,6 @@
 ---
 layout: about
 ---
-- Ruby/Rails
-- Dart/Flutter
-- Javascript/TypeScript
-- Postgres
-- MySQL
-- ElasticSearch/OpenSearch
-- AWS
 
 ## Introduction
 
