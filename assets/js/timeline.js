@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     const timeline = document.getElementById('career-timeline');
 
-    // Enhanced Intersection Observer for all animated elements
+    // Intersection Observer for timeline animations only
     const observerOptions = {
         threshold: 0.1,
         rootMargin: '0px 0px -10px 0px'
@@ -9,17 +9,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
-            if (entry.isIntersecting) {
+            if (entry.isIntersecting && entry.target.classList.contains('timeline-item')) {
                 entry.target.classList.add('animate');
-
-                // Add special handling for different element types
-                if (entry.target.classList.contains('timeline-item')) {
-                    entry.target.style.animationPlayState = 'running';
-                } else if (entry.target.tagName === 'LI') {
-                    entry.target.style.animationPlayState = 'running';
-                } else if (entry.target.tagName === 'P') {
-                    entry.target.style.animationPlayState = 'running';
-                }
             }
         });
     }, observerOptions);
@@ -31,19 +22,6 @@ document.addEventListener('DOMContentLoaded', function() {
             observer.observe(item);
         });
     }
-
-    // Observe all animatable elements on the page
-    const animatableElements = document.querySelectorAll(
-        '.about__content h2, .about__content p, .about__content ul li, .about__content'
-    );
-
-    animatableElements.forEach(element => {
-        // Pause animations initially for scroll-triggered reveal
-        if (element.tagName === 'LI' || element.tagName === 'P') {
-            element.style.animationPlayState = 'paused';
-        }
-        observer.observe(element);
-    });
 
     // Add staggered animation delay for timeline items
     if (timeline) {
@@ -84,22 +62,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }, 100);
     }
 
-    // Simplified scroll effect for page title
-    const pageTitle = document.querySelector('.about__title');
-    if (pageTitle) {
-        let ticking = false;
-        window.addEventListener('scroll', () => {
-            if (!ticking) {
-                requestAnimationFrame(() => {
-                    const scrolled = window.pageYOffset;
-                    const rate = scrolled * -0.1;
-                    pageTitle.style.transform = `translateY(${rate}px)`;
-                    ticking = false;
-                });
-                ticking = true;
-            }
-        });
-    }
+    // Removed page title scroll effect
 });
 
 // Add CSS animation for pulse effect
