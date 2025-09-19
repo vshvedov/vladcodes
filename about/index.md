@@ -11,27 +11,23 @@ layout: about
 
 ## Introduction
 
-Hello, I'm [Vladyslav](/assets/img/about/me.jpeg)! I'm a Software Engineer. I started programming on my ZX Spectrum 16K clone when I was 10. First, BASIC and then Zilog Z80's Assembler. I spent most of middle school learning Borland Pascal and OOP on my Intel 80386 SX PC, helping my Dad with scientific calculations and working on an artificial life simulator (as I was sure I'd be a microbiologist). In high school, I found out about FIDO (2:5124/2110) and had my own BBS (WerewolfBBS T: 44-65-28) with a home-brew (Pascal-based) software running, and kept programming and learning Economics in University, until I finally got an unlimited access to the Internet. Here is my story, as a Web Developer begins, as I discovered Perl and CGI programming, which were my first two tools.
+Hello, I'm [Vladyslav](/assets/img/about/me.jpeg)! I'm an Engineering Manager and a Software Developer. I started programming when I was 10 on a ZX Spectrum 16K clone, first with BASIC and later with Zilog Z80 Assembler. In middle school, I spent most of my time learning Borland Pascal and OOP on my Intel 80386 SX PC, helping my dad with scientific calculations. By high school, I had discovered networks, FIDO (2:5124/2110), and even ran my own BBS with home-brewed Pascal software. Soon after, I found the Internet, got into Perl and CGI programming, and that’s how I became a Web Developer.  
 
-My current scope of interests is closely connected to LLMs, AI and agentic systems, distributed and reactive Web Applications development, FDM and SLA 3D Printing, CNC (I made the electronics for [my CNC milling machine](/assets/img/about/cnc.jpeg)) and woodworking (most of all I'm interested in making [electric guitars](/assets/img/about/tele.jpeg)) and printing [3D models I sculpted](/assets/img/about/3d.jpeg).
+Over the years, I’ve grown into leadership roles, combining hands-on development with management. As an Engineering Manager, I’ve led cross-functional teams, scaled applications in production, and mentored developers at different stages of their careers. I enjoy building strong engineering cultures, improving processes, and helping teams deliver high-quality software while encouraging innovation and experimentation.  
 
-Music is a big part of my life. I'm not playing in any band anymore; however, I have some [music projects](https://www.youtube.com/watch?v=cE3Yqnbgb18), and I'm very interested in sound synthesis, old-school CASIO and modular synths, as well as Eurorack modulars. I'm also developing an [iOS noise synth](https://youtu.be/WnUGSSEwWgw).
+These days my interests revolve around LLMs, AI and agentic systems, distributed and reactive web apps, CNC machines (I built the electronics for [my CNC milling machine](/assets/img/about/cnc.jpeg)), woodworking (especially making [electric guitars](/assets/img/about/tele.jpeg)), and 3D printing [models I sculpted](/assets/img/about/3d.jpeg).  
 
-For everything Web, currently I'm using Ruby/Rails and TypeScript/Next. Arduino, C/C++ and Python for [electronics prototyping](/assets/img/about/device.jpeg) and Flutter for the mobile apps. I'm also using Fusion360 and Blender for CNC and 3D printing.
+Music is also a big part of my life. I’m not in bands anymore, but I still work on [music projects](https://www.youtube.com/watch?v=cE3Yqnbgb18), experiment with sound synthesis, and enjoy old-school CASIOs, modular synths, and Eurorack. I’m also developing an [iOS noise synth](https://youtu.be/WnUGSSEwWgw).  
 
-To this day, game development remains my favorite hobby, and I always have a couple of projects simmering in the background. I’m especially drawn to indie game development, where creativity and experimentation take center stage. I love exploring unique mechanics, distinctive visual styles, and unconventional storytelling.
+For web development, I mainly use Ruby on Rails and TypeScript/Next. For [electronics prototyping](/assets/img/about/device.jpeg), I work with Arduino, C/C++, and Python, and I use Flutter for mobile apps. For CNC and 3D printing, my go-to tools are Fusion360 and Blender.  
+
+Game development remains my favorite hobby, and I almost always have a few projects simmering in the background. I’m especially drawn to indie game development, where creativity and experimentation come first. I love exploring unusual mechanics, distinctive visual styles, and unconventional storytelling.
 
 ## Quick facts
 
 - Done today is better than a perfect tomorrow
 - Monolith apps with a simple UI are better than microservices and dependency hell
 - Old bugs are ancient mysteries; channel your inner Indiana Jones.
-
-## Useless facts
-
-- Odd numbers are the best.
-- I love dogs.
-- I never finished Baldur's Gate 1.
 
 ## Books I read two or more times
 

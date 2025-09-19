@@ -236,7 +236,7 @@ ul.list {
     margin: 40px 0;
     opacity: 0;
     transform: translateY(30px);
-    transition: all 0.6s ease;
+    transition: all 0.3s ease;
 }
 
 .timeline-item.animate {
@@ -280,7 +280,7 @@ ul.list {
 .timeline-content::before {
     content: '';
     position: absolute;
-    top: 20px;
+    top: 10px;
     width: 0;
     height: 0;
     border: 12px solid transparent;
@@ -361,7 +361,7 @@ ul.list {
     .timeline-item:nth-child(even) .timeline-content::before {
         left: -24px;
         right: auto;
-        top: 20px;
+        top: 10px;
         border-left-color: transparent;
         border-right-color: var(--app-item-border);
         border-bottom-color: transparent;
