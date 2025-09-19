@@ -18,7 +18,8 @@ Game development remains my favorite hobby, and I almost always have a few proje
 
 ## Books I read two or more times
 
-- Hobbit/LOTR
+- Hobbit
+- LOTR
 - William Gibson's Sprawl Trilogy
 - Cryptonomicon
 - The Kingkiller Chronicle
