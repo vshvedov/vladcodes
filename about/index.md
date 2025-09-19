@@ -16,12 +16,6 @@ For web development, I mainly use Ruby on Rails and TypeScript/Next. For [electr
 
 Game development remains my favorite hobby, and I almost always have a few projects simmering in the background. I’m especially drawn to indie game development, where creativity and experimentation come first. I love exploring unusual mechanics, distinctive visual styles, and unconventional storytelling.
 
-## Quick facts
-
-- Done today is better than a perfect tomorrow
-- Monolith apps with a simple UI are better than microservices and dependency hell
-- Old bugs are ancient mysteries; channel your inner Indiana Jones.
-
 ## Books I read two or more times
 
 - Hobbit/LOTR
