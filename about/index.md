@@ -28,10 +28,10 @@ Game development remains my favorite hobby, and I almost always have a few proje
 ## Bio
 
 <div class="timeline" id="career-timeline">
-  <div class="timeline-item" data-year="1995">
+  <div class="timeline-item" data-year="1992">
     <div class="timeline-marker"></div>
     <div class="timeline-content">
-      <h3>Programming Begins</h3>
+      <h3>Story Begins</h3>
       <p>Started programming at age 10 on ZX Spectrum 16K clone with BASIC and Z80 Assembler</p>
     </div>
   </div>
@@ -48,7 +48,7 @@ Game development remains my favorite hobby, and I almost always have a few proje
     <div class="timeline-marker"></div>
     <div class="timeline-content">
       <h3>BBS & Networking</h3>
-      <p>Discovered FIDO network (2:5124/2110) and ran WerewolfBBS (T: 44-65-28) with custom Pascal-based software</p>
+      <p>Discovered FIDO network (2:5124/2110) and ran WerewolfBBS with custom Pascal-based software</p>
     </div>
   </div>
 
@@ -64,7 +64,7 @@ Game development remains my favorite hobby, and I almost always have a few proje
     <div class="timeline-marker"></div>
     <div class="timeline-content">
       <h3>Masquerade Games Studio</h3>
-      <p>Co-founded games development studio with school friends - career officially begins</p>
+      <p>Co-founded games development studio with school friends</p>
     </div>
   </div>
 
@@ -116,7 +116,7 @@ Game development remains my favorite hobby, and I almost always have a few proje
     </div>
   </div>
 
-  <div class="timeline-item" data-year="2024">
+  <div class="timeline-item" data-year="2023">
     <div class="timeline-marker"></div>
     <div class="timeline-content">
       <h3>LLMs & AI Focus</h3>
