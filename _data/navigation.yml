@@ -1,6 +1,3 @@
-- title: home
-  url: /
-
 - title: about
   url: /about
 
@@ -9,6 +6,10 @@
 
 - title: linkedin
   url: https://www.linkedin.com/in/vshvedov/
+
+- title: X
+  url: https://x.com/r13
+  target: _blank
 
 - title: github
   url: https://github.com/vshvedov
