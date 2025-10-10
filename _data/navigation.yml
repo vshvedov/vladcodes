@@ -7,9 +7,10 @@
 - title: linkedin
   url: https://www.linkedin.com/in/vshvedov/
 
+- title: x
+  url: https://x.com/r13
+  target: _blank
+
 - title: github
   url: https://github.com/vshvedov
-
-  - title: x
-  url: https://x.com/r13
   target: _blank
