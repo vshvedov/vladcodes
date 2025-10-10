@@ -1,15 +1,15 @@
 - title: about
   url: /about
 
-- title: cv
-  url: https://vlad.codes/resume.pdf
+- title: resume
+  url: /resume
 
 - title: linkedin
   url: https://www.linkedin.com/in/vshvedov/
 
-- title: X
-  url: https://x.com/r13
-  target: _blank
-
 - title: github
   url: https://github.com/vshvedov
+
+  - title: x
+  url: https://x.com/r13
+  target: _blank
