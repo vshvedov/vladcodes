@@ -52,8 +52,26 @@ title: Resume - Vladyslav Shvedov
   font-size: 1em;
   color: var(--text-color);
   max-width: 800px;
-  margin: 0 auto;
+  margin: 0 auto 20px auto;
   line-height: 1.6;
+}
+
+.download-pdf {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background: var(--link-color);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.95em;
+  transition: opacity 0.3s ease;
+}
+
+.download-pdf:hover {
+  opacity: 0.8;
+  color: white;
 }
 
 /* Core Strengths Section */
@@ -139,28 +157,10 @@ title: Resume - Vladyslav Shvedov
   position: relative;
   opacity: 0;
   transform: translateY(20px);
-  transition: all 0.4s ease;
 }
 
 .experience-card.visible {
   animation: fadeInUp 0.6s ease forwards;
-}
-
-.experience-card::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  width: 4px;
-  background: linear-gradient(to bottom, var(--link-color), transparent);
-  border-radius: 16px 0 0 16px;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-}
-
-.experience-card:hover::before {
-  opacity: 1;
 }
 
 .experience-header {
@@ -477,6 +477,7 @@ html {
       20+ years of experience delivering software solutions, managing engineering teams, and leading cross-functional collaboration across SaaS, hospitality tech, and HR tech.
       Combines hands-on technical expertise with strong experience in project delivery, stakeholder alignment, and distributed team management.
     </div>
+    <a href="https://vlad.codes/resume.pdf" class="download-pdf" target="_blank">Download PDF Resume</a>
   </div>
 
   <!-- Core Strengths -->
