@@ -61,7 +61,7 @@ title: Resume - Vladyslav Shvedov
   margin-top: 20px;
   padding: 12px 24px;
   background: var(--link-color);
-  color: white;
+  color: white !important;
   text-decoration: none;
   border-radius: 8px;
   font-weight: 600;
@@ -69,9 +69,12 @@ title: Resume - Vladyslav Shvedov
   transition: opacity 0.3s ease;
 }
 
-.download-pdf:hover {
+.download-pdf:hover,
+.download-pdf:visited,
+.download-pdf:active {
   opacity: 0.8;
-  color: white;
+  color: white !important;
+  text-decoration: none;
 }
 
 /* Core Strengths Section */
@@ -485,12 +488,12 @@ html {
   <div class="strengths-grid">
     <div class="strength-card">Technical & Project Leadership</div>
     <div class="strength-card">Portfolio & Stakeholder Management</div>
-    <div class="strength-card">Agile & Lean Team Management</div>
     <div class="strength-card">Architecture & System Design</div>
-    <div class="strength-card">CI/CD & Cloud Infrastructure</div>
+    <div class="strength-card">Hands-on Software Development</div>
+    <div class="strength-card">Agile & Lean Team Management</div>
     <div class="strength-card">Cross-functional Team Building</div>
     <div class="strength-card">Product Delivery & Process Improvement</div>
-    <div class="strength-card">I know how to make any job interesting</div>
+    <div class="strength-card">CI/CD & Cloud Infrastructure</div>
   </div>
 
   <!-- Professional Experience -->
