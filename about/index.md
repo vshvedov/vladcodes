@@ -4,7 +4,7 @@ layout: about
 
 ## Introduction
 
-Hello, I'm [Vladyslav](/assets/img/about/me.jpeg)! I'm an Engineering Manager and a Software Developer. I started programming when I was 10 on a ZX Spectrum 16K clone, first with BASIC and later with Zilog Z80 Assembler. In middle school, I spent most of my time learning Borland Pascal and OOP on my Intel 80386 SX PC, helping my dad with scientific calculations. By high school, I had discovered networks, FIDO (2:5124/2110), and even ran my own BBS with home-brewed Pascal software. Soon after, I found the Internet, got into Perl and CGI programming, and that’s how I became a Web Developer.  
+Hello, I'm [Vlad](/assets/img/about/me.png)! I'm an Engineering Manager and a Software Developer. I started programming when I was 10 on a ZX Spectrum 16K clone, first with BASIC and later with Zilog Z80 Assembler. In middle school, I spent most of my time learning Borland Pascal and OOP on my Intel 80386 SX PC, helping my dad with scientific calculations. By high school, I had discovered networks, FIDO (2:5124/2110), and even ran my own BBS with home-brewed Pascal software. Soon after, I found the Internet, got into Perl and CGI programming, and that’s how I became a Web Developer.  
 
 Over the years, I’ve grown into leadership roles, combining hands-on development with management. As an Engineering Manager, I’ve led cross-functional teams, scaled applications in production, and mentored developers at different stages of their careers. I enjoy building strong engineering cultures, improving processes, and helping teams deliver high-quality software while encouraging innovation and experimentation.  
 
