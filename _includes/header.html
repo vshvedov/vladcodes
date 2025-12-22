@@ -1,7 +1,7 @@
 
 <div class="header">
     <h1 style="margin: 0; padding: 0;">
-        <a href="/" class="logo-link">
+        <a href="{{ site.baseurl }}/" class="logo-link">
             <span class="logo-text">{{ site.name }}</span>
             <span class="logo-glow"></span>
         </a>
@@ -9,7 +9,7 @@
     <ul>
         {% for item in site.data.navigation %}
         <li>
-            <a href="{{ item.url }}"{% if item.target %} target="{{ item.target }}"{% endif %}>{{ item.title }}</a>
+            <a href="{% if item.url contains '://' %}{{ item.url }}{% else %}{{ site.baseurl }}{{ item.url }}{% endif %}"{% if item.target %} target="{{ item.target }}"{% endif %}>{{ item.title }}</a>
         </li>
         {% endfor %}
     </ul>

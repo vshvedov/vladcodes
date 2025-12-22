@@ -1,8 +1,10 @@
 # Blog settings
 permalink: /blog/:title
+baseurl: '/about'
+url: 'https://vshvedov.github.io'
 
-name: 'vlad.codes'
-title: 'vlad.codes'
+name: 'Vlad Shvedov'
+title: 'Software Development and Management'
 description: 'Vlad Shvedov - Software Development'
 google_verification: null
 
