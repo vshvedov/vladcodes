@@ -1,9 +1,9 @@
 <header class="site-header" role="banner">
-  <a href="/" class="site-header__brand">{{ site.name }}</a>
+  <a href="{{ '/' | relative_url }}" class="site-header__brand">{{ site.name }}</a>
   <nav class="site-nav" aria-label="Primary">
     {% for item in site.data.navigation %}
       <a class="site-nav__link"
-         href="{{ item.url }}"
+         href="{% if item.url contains '://' %}{{ item.url }}{% else %}{{ item.url | relative_url }}{% endif %}"
          {% if item.target %}target="{{ item.target }}" rel="noopener"{% endif %}>
         {{ item.title }}
       </a>

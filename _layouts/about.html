@@ -2,10 +2,10 @@
 layout: default
 ---
 
-<a class="back-link" href="/">&larr; back</a>
+<a class="back-link" href="{{ '/' | relative_url }}">&larr; back</a>
 
 <div class="about">
   {{ content }}
 </div>
 
-<script src="/assets/js/timeline.js" defer></script>
+<script src="{{ '/assets/js/timeline.js' | relative_url }}" defer></script>
