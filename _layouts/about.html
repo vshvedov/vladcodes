@@ -2,12 +2,10 @@
 layout: default
 ---
 
+<a class="back-link" href="/">&larr; back</a>
+
 <div class="about">
-    <a class="about__back" href="{{ site.baseurl }}/">&lt;-- back</a>
-    <h1 class="about__title">About Vlad Shvedov</h1>
-    <div class="about__content">
-        {{ content }}
-    </div>
+  {{ content }}
 </div>
 
-<script src="{{ site.baseurl }}/assets/js/timeline.js"></script>
+<script src="/assets/js/timeline.js" defer></script>

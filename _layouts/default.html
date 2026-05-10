@@ -17,13 +17,15 @@ _#/|##########/\######(   /\   )######/\##########|\#_
 THIS EMAIL IS PROTECTED BY DRAGON FROM THE CURSE OF SPAM
                    mail@vlad.codes
 -->
-
 <!DOCTYPE html>
-<html>
+<html lang="en" data-theme="auto">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#242424" media="(prefers-color-scheme: dark)">
 
     {% if page.title %}
       <title>{{ page.title }}</title>
@@ -31,19 +33,42 @@ THIS EMAIL IS PROTECTED BY DRAGON FROM THE CURSE OF SPAM
       <title>{{ site.title }}</title>
     {% endif %}
 
-    <meta name="description" content="{{ site.description }}">
+    <meta name="description" content="{{ page.description | default: site.description }}">
 
-    <link rel="icon" href="{{ site.baseurl }}/assets/img/favicon.jpg">
+    <link rel="icon" href="/assets/img/favicon.jpg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/main.css">
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/syntax.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/syntax.css">
+
+    <script>
+    (function () {
+      try {
+        var KEY = 'vladcodes:theme';
+        var stored = null;
+        try { stored = localStorage.getItem(KEY); } catch (e) {}
+        var dark = window.matchMedia &&
+          window.matchMedia('(prefers-color-scheme: dark)').matches;
+        var theme = (stored === 'light' || stored === 'dark' || stored === 'auto')
+                    ? stored : 'auto';
+        var resolved = theme === 'auto' ? (dark ? 'dark' : 'light') : theme;
+        document.documentElement.setAttribute('data-theme', theme);
+        document.documentElement.setAttribute('data-theme-resolved', resolved);
+      } catch (e) {}
+    })();
+    </script>
   </head>
 
-  <body>
+  <body class="page page--{{ page.layout | default: 'default' }}{% if page.body_class %} {{ page.body_class }}{% endif %}">
     <div class="wrapper">
+      {% include header.html %}
+
       {{ content }}
+
+      {% include footer.html %}
     </div>
+
+    <script src="/assets/js/theme.js" defer></script>
   </body>
 </html>

@@ -2,12 +2,15 @@
 layout: default
 ---
 
-<div class="post">
-    <a class="post__back" href="{{ site.baseurl }}/">&lt;-- home</a>
-    <h1 class="post__title">{{ page.title }}</h1>
-    <p class="post__date">{{ page.date | date: '%B %-d, %Y' }}</p>
-    <p class="post__meta">{{ tags_content }}</p>
-    <div class="post__content"?>
-        {{ content }}
-    </div>
-</div>
+<a class="back-link" href="/">&larr; home</a>
+
+<article class="post">
+  <h1 class="post__title">{{ page.title }}</h1>
+  <p class="post__date">{{ page.date | date: '%B %-d, %Y' }}</p>
+  {% if page.tags and page.tags.size > 0 %}
+    <p class="post__meta">{{ page.tags | join: ', ' }}</p>
+  {% endif %}
+  <div class="post__content">
+    {{ content }}
+  </div>
+</article>

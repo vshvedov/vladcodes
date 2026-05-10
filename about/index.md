@@ -1,6 +1,9 @@
 ---
 layout: about
+title: About Vlad
 ---
+
+# About Vlad
 
 ## Introduction
 
