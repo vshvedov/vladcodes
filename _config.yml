@@ -1,7 +1,7 @@
 # Blog settings
 permalink: /blog/:title
-baseurl: '/about'
-url: 'https://vshvedov.github.io'
+baseurl: ''
+url: 'https://omniprag.com'
 
 name: 'Vlad Shvedov'
 title: 'Software Development and Management'
